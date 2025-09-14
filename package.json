@@ -1,0 +1,23 @@
+{
+  "name": "mcp",
+  "version": "1.0.0",
+  "description": "Repositorio criado conforme solicitado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapvalerio/MCP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rapvalerio/MCP/issues"
+  },
+  "homepage": "https://github.com/rapvalerio/MCP#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
