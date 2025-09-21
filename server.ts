@@ -1,10 +1,9 @@
-// server.js
-const express = require('express');
+import express, { Request, Response } from 'express';
+
 const app = express();
 app.use(express.json());
 
-app.post('/mcp', (req, res) => {
-  // Aqui você processa a requisição MCP
+app.post('/mcp', (req: Request, res: Response) => {
   res.json({ message: 'MCP recebido', data: req.body });
 });
 
